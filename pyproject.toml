@@ -1,0 +1,16 @@
+[project]
+name = "python-stdlib-rag-homework"
+version = "0.1.0"
+description = "Educational TF-IDF RAG over Python standard library docstrings"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "scikit-learn>=1.4",
+    "scipy>=1.11",
+    "streamlit>=1.32",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
